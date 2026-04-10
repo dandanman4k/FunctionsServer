@@ -1,0 +1,29 @@
+# FastGS server requirements
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Core pipeline
+opencv-python-headless
+imageio[ffmpeg]
+numpy<2.0.0
+scikit-learn
+tqdm
+torchmetrics[image]
+tyro>=0.8.8
+Pillow
+piexif
+tensorboard
+tensorly
+pyyaml
+matplotlib
+viser
+splines
+plyfile
+
+# COLMAP parsing / reconstruction
+pycolmap
+
+# Viewer/helper dependency commonly used in Gaussian repos
+git+https://github.com/nerfstudio-project/nerfview@4538024fe0d15fd1a0e4d760f3695fc44ca72787
+

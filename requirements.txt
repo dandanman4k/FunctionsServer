@@ -25,3 +25,4 @@ pyyaml
 matplotlib
 splines
 gsplat
+plyfile
